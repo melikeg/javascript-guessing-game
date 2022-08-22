@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>GuessingGame</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="numbers">
+          <input
+            type="number"
+            placeholder="???"
+            maxlength="3"
+            id="number"
+            onkeypress="return
+          enterKeyPressed(event)"
+            oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+          />
+        </div>
+        <div class="won-container"></div>
+        <div class="btn-container">
+          <button id="startBtn" class="btn" onclick="startGame()">
+            Start Game
+          </button>
+          <button id="howToBtn" class="btn" onclick="howToPlay()">
+            How to Play?
+          </button>
+        </div>
+        <div class="htp"></div>
+        <div class="results">
+          <div class="result result-title">
+            <div class="sayi">Number</div>
+            <div class="up-down">Up or Down</div>
+            <div class="right-place">Try</div>
+          </div>
+          <div class="try-list"></div>
+        </div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>

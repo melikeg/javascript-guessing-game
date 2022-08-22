@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=DynaPuff&family=Josefin+Sans&display=swap');
+:root {
+    --dark: #2C3639;
+    --dark2: #3F4E4F;
+
+    --pink:#F94892;
+    --orange: #FF7F3F;
+    --yellow:#FBDF07;
+    --blue: #89CFFD;
+    --purple: hsl(276, 85%, 49%);
+    --white: #fff;
+    --koyu-kirmizi: hsl(360, 67%, 44%);
+    --acik-kirmizi: hsl(360, 71%, 66%);
+    --koyu-yesil: hsl(125, 67%, 44%);
+    --acik-yesil: hsl(125, 71%, 66%);
+    --siyah: #222;
+  
+    /** Hovers*/
+    --pink-hvr:#f94892be;
+    --orange-hvr: #ff7f3fb4;
+    --dark2-hvr: #455354;
+    /** Fonts */
+    --ff: "DynaPuff", cursive;
+  
+    /** Shadow */
+    --koyu-golge: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    --acik-golge: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
