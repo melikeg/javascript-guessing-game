@@ -181,5 +181,6 @@ main .container .won-container .again {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--koyu-yesil);
+    z-index: 2;
        
 }
