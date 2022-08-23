@@ -25,7 +25,7 @@ nmb.addEventListener("keyup", function (event) {
 
 function startGame() {
   if (nmb.value != "") {
-    console.log(randomNumber);
+    // console.log(randomNumber);
     btnContainer.style.display = "none";
     results.style.display = "block";
     if (nmb.value == randomNumber) {
